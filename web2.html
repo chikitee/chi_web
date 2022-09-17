@@ -7,15 +7,22 @@
 </head>
 	
 <body>
- 	<input type="button" value="night" onclick="
-      document.querySelector('body').style.backgroundColor = 'black';
-    document.querySelector('body').style.color = 'white';
-    ">
-    <input type="button" value="day" onclick="
-      document.querySelector('body').style.backgroundColor = 'white';
-    document.querySelector('body').style.color = 'black';
-    ">
+ 	
     
+ <input  type= 'button' value="night" onclick=" 
+    var target =document.querySelector('body').style;
+    if(this.value === 'night') {
+     	target.backgroundColor = 'black';
+     	target.color = 'white';                                                             
+     	this.value = 'day';
+     } else {
+		target.backgroundColor = 'white';
+     	target.color = 'black'; 
+     	this.value = 'night';                                                            
+     }"
+        >                                          
+                                                                 
+                                                                 
     <h1><a href ="index.html" >WEB</a></h1>
  <div id ="all">
 
@@ -35,6 +42,22 @@
 		<p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.<br> 
     	HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
 	</div>
+    <p>
+     
+   <input  type= 'button' value="night" onclick=" 
+    var target =document.querySelector('body').style;
+    if(this.value === 'night') {
+     	target.backgroundColor = 'black';
+     	target.color = 'white';                                                             
+     	this.value = 'day';
+     } else {
+		target.backgroundColor = 'white';
+     	target.color = 'black'; 
+     	this.value = 'night';                                                            
+     }"
+        >      
+    
+     </p>
 </div>
     
     
