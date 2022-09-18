@@ -7,7 +7,7 @@
 </head>
 	
 <body>
- 	
+	
     
  <input  type= 'button' value="night" onclick=" 
     var target =document.querySelector('body').style;
@@ -15,14 +15,39 @@
      	target.backgroundColor = 'black';
      	target.color = 'white';                                                             
      	this.value = 'day';
+                                               
+     var alist = document.querySelectorAll('a');
+    	i = 0;
+    while(i <alist.length){
+        console.log(alist[i]);
+        alist[i].style.color = 'powderblue';
+    i = i+1;
+    }
+                                              
      } else {
 		target.backgroundColor = 'white';
      	target.color = 'black'; 
-     	this.value = 'night';                                                            
+     	this.value = 'night';   
+                                               
+     	var alist = document.querySelectorAll('a');
+    	i = 0;
+    	while(i <alist.length){
+        console.log(alist[i]);
+        alist[i].style.color = 'Blue';
+    i = i+1;
+    }
+                                              
+                                               
      }"
-        >                                          
+        >
+    
+  
+    
+    
+	
+    
                                                                  
-                                                                 
+                                                                  
     <h1><a href ="index.html" >WEB</a></h1>
  <div id ="all">
 
@@ -56,7 +81,7 @@
      	this.value = 'night';                                                            
      }"
         >      
-    
+            
      </p>
 </div>
     
