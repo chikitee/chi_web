@@ -1,0 +1,63 @@
+<style>
+    a {
+    color:black;
+    }
+    a {
+        text-decoration:none;
+        
+    }
+   
+   
+    
+   .saw {
+        color: gray;
+    }
+
+    
+    
+    h1 {
+  		font-size: 40px;
+        border-bottom:1px;
+        border-bottom-color:black;
+        border-bottom-style:solid;
+        margin:0px
+	}
+    h1 {
+         text-align: center;
+    }
+    
+    #all ol {
+        
+        margin:0;
+        padding:0;
+        border-right: 1px black solid;
+        padding-left:20px
+    }
+    div {
+        
+        margin-left:10px;
+        padding:0;
+        
+    }
+    
+    #all {
+        display:grid;
+        grid-template-columns:150px 1fr;
+        margin:0;
+        padding:0;
+    }
+    @media(max-width:840px){
+        #all {
+            display:block;
+            }
+        
+    
+        ol {
+            border-right:none;
+        }	
+        h1 {
+            border-bottom:0;
+        }
+    }
+    
+</style>
